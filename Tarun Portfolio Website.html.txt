@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarun Ravichandran - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fff;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+        .profile-photo {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin-bottom: 0.5rem;
+        }
+        .project-list, .experience-list, .skills-list, .hobbies-list {
+            list-style: none;
+            padding: 0;
+        }
+        .project-list li, .experience-list li, .skills-list li, .hobbies-list li {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tarun Ravichandran</h1>
+    </header>
+    <div class="container">
+        <section id="about-me">
+            <h2>About Me</h2>
+            <img src="Professional Headshot.jpg" alt="Profile Photo" class="profile-photo">
+            <p>Experienced data analyst with strong statistical prowess and market research acumen, excelling in a dynamic consultancy environment. Adept at transforming complex data into actionable insights. Ready to seamlessly shift into a product analyst role, using data-driven insights to drive product excellence and innovation.</p>
+        </section>
+        <section id="professional-experience">
+            <h2>Professional Experience</h2>
+            <ul class="experience-list">
+                <li>
+                    <strong>Analysis Manager - Data Product Development</strong><br>
+                    Strategic Research Insights, Princeton, NJ (Dec 2023 - Present)
+                    <ul>
+                        <li>Pioneered the development of an AI-powered message testing platform, leveraging advanced NLP techniques, including Word2Vec models implemented with PyTorch.</li>
+                        <li>Developed TURF simulator using Flask Python framework by gathering requirements, in form of user stories & acceptance criteria, prioritizing product backlog to streamline the execution of a marketing tool.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Business Intelligence Analyst - Primary and Secondary Market Research</strong><br>
+                    Strategic Research Insights, Princeton, NJ (Jan 2022 - Dec 2023)
+                    <ul>
+                        <li>Conducted descriptive analytics and statistical modeling of healthcare products, offering insights to meet client requirements.</li>
+                        <li>Translated business requirements into statistical analyses using Python and SAS, developing and delivering complex ML models.</li>
+                        <li>Utilized Snowflake SQL queries and Tableau to create insightful pharmaceutical market reports for client decision-making.</li>
+                        <li>Led a team of five to complete the migration from SPSS to Python within an aggressive 8-week timeline, achieving a remarkable 99.9% data accuracy, an 80% adoption rate, and facilitating approximately $170k in cost savings yearly.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Data Analyst</strong><br>
+                    Apellis Pharmaceuticals, Waltham, MA (Jul 2021 - Jan 2022)
+                    <ul>
+                        <li>Automated vendor data migration for 3k+ suppliers using VBA to send customized emails, reducing project timeline by 145 days.</li>
+                        <li>Developed credit risk scoring models using Logistic Regression, reduced process time by ≈70%, and increased accuracy by 50%.</li>
+                        <li>Collaborated with a team of three to create “SupplierFlow” Tableau dashboard to enhance supplier workflow visibility and efficiency, reducing ticket escalation by 89.3% over 24 weeks.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul class="project-list">
+                <li>
+                    <strong>Flyber (Flying car taxi service)</strong><br>
+                    Jul 2023 - Oct 2023
+                    <ul>
+                        <li>Crafted data-driven product proposal for NYC's first flying-car taxi, optimizing features for user adoption and profitability.</li>
+                        <li>Led development of a scalable data strategy for Flyber, optimizing data handling and enabling data-driven business growth.</li>
+                        <li>Defined user personas and drove iterative product design improvements, leveraging A/B testing and behavioral insights at Flyber.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>DoorDash (Autonomous Robotic Delivery System)</strong><br>
+                    Dec 2020 - Feb 2021
+                    <ul>
+                        <li>Identified a viable product opportunity, chartered business case, and roadmap for an autonomous last-mile delivery product.</li>
+                        <li>Performed market research and conducted 6 phases of design sprint, epics, and tasks in Jira and built an MVP using Figma.</li>
+                        <li>Designed an operations dashboard prototype, catering to 100+ robots targeting a Serviceable Addressable Market of $10.5M.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Smart Music Engagement Tool</strong><br>
+                    Apr 2020 - Nov 2020
+                    <ul>
+                        <li>Designed an Entity-Relationship model using MS Visio to reduce data redundancy through normalization of the database schema.</li>
+                        <li>Optimized data collection using trigger functions and retrieved comprehensive information with a set of procedures using SQL.</li>
+                        <li>Created dashboards in Power BI providing insights based on demography to aid artists and record labels in the predictive analysis.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Python (IDE: Spyder & Jupyter Notebook)</li>
+                <li>R (IDE: RStudio)</li>
+                <li>SQL, Snowflake, SAS, SPSS, WinCross, Tableau, Power BI, Flourish</li>
+                <li>Market Research Techniques: Conjoint, Segmentation, A/B Testing, Market Basket, TURF, MaxDiff Analysis</li>
+                <li>Machine Learning Algorithms: Natural Language Processing (NLP), Supervised Learning (Linear and Logistic Regression)</li>
+                <li>Product: Figma, Balsamiq, Trello, JIRA, Confluence, Agile, Scrum, Miro, Salesforce, Canva, WIX, theplot.io</li>
+            </ul>
+        </section>
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul class="hobbies-list">
+                <li>Mountain biking</li>
+                <li>Hiking</li>
+                <li>Kayaking</li>
+                <li>Rafting</li>
+                <li>Dancing</li>
+                <li>Playing cricket</li>
+            </ul>
+        </section>
+        <section id="contact-information">
+            <h2>Contact Information</h2>
+            <ul class="contact-info">
+                <li>Email: ravichandran.tr7@gmail.com</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/tarun-ravichandran">Tarun Ravichandran</a></li>
+                <li>Tableau Public: <a href="https://public.tableau.com/profile/tarun.ravichandran">Tarun Ravichandran</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
